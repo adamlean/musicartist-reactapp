@@ -45,7 +45,7 @@ function Discography() {
                   </div>
                   <div className="actions">
                     <a
-                      href="#"
+                      href="https://www.example.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       title="Listen"
@@ -65,7 +65,7 @@ function Discography() {
                   </div>
                   <div className="actions">
                     <a
-                      href="#"
+                      href="https://www.example.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       title="Listen"
@@ -85,7 +85,7 @@ function Discography() {
                   </div>
                   <div className="actions">
                     <a
-                      href="#"
+                      href="https://www.example.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       title="Listen"
@@ -105,7 +105,7 @@ function Discography() {
                   </div>
                   <div className="actions">
                     <a
-                      href="#"
+                      href="https://www.example.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       title="Listen"
@@ -134,7 +134,7 @@ function Discography() {
                 </p>
                 <div className="project-meta">
                   <a
-                    href="https://music.yandex.ru/artist/16832560"
+                    href="https://www.example.com/"
                     className="live-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -155,7 +155,7 @@ function Discography() {
                 </p>
                 <div className="project-meta">
                   <a
-                    href="https://music.yandex.ru/artist/21700414"
+                    href="https://www.example.com/"
                     className="live-link"
                     target="_blank"
                     rel="noopener noreferrer"
