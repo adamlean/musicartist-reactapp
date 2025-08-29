@@ -1,0 +1,479 @@
+/* Music */
+
+.albums-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.latest-release {
+  flex: 1;
+}
+
+.latest-release ul {
+  margin-top: 10px;
+  font-size: 24px;
+  list-style-type: disc;
+  padding-left: 20px;
+  color: white;
+}
+
+.latest-release span {
+  margin-top: 10px;
+  font-size: 24px;
+  font-style: italic;
+  color: gray;
+}
+
+.latest-release button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.albums-gallery {
+  flex: 1.5;
+}
+
+.albums-gallery h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: right;
+}
+
+.albums-gallery p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: left;
+  color: #000000;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.discography-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.album-card {
+  background: white;
+  justify-content: space-between;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 310px;
+  height: 380px;
+}
+
+.album-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.album-card .info {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.album-card .info p {
+  font-weight: bold;
+}
+
+.album-card .info span {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.album-card .actions {
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.album-card .actions a {
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+.album-card .actions a:hover {
+  color: #007bff;
+}
+
+.albums-section .container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.album-card .info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.library_buttom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 275px;
+  height: 56px;
+  margin-top: 20px;
+}
+
+/* Projects */
+
+.projects-section {
+  padding: 20px 20px;
+  color: white;
+}
+
+.projects-section h2 {
+  color: white;
+}
+
+.section-title {
+  display: flex;
+  margin-top: 5px;
+}
+
+.section-title span {
+  color: #000000;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  height: 150px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-info h3 {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: black;
+}
+
+.project-info p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.project-info span {
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: gray;
+}
+
+.project-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tech-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.tech-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.live-link {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.live-link:hover {
+  color: red;
+  opacity: 0.8;
+}
+
+.project-btn-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 30px;
+}
+
+.project-btn {
+  background-color: #e4e4e4;
+  color: black;
+  border: none;
+  padding: 14px 28px;
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+}
+
+.project-btn:hover {
+  background-color: #c5c5c5;
+}
+
+
+/* Music Projects */
+
+.projectsmusic-section {
+  padding: 20px 20px;
+  color: white;
+  margin-top: 50px;
+}
+
+.projectsmusic-section h2 {
+  color: black;
+}
+
+.projectmusic-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  height: 150px;
+  width: 550px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projectsmusic-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projectsmusic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Subscribe */
+
+.subscribe-section {
+  margin-top: auto;
+  text-align: center;
+}
+
+.subscribe-form {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ====== Адаптив ====== */
+
+/* Планшеты */
+@media (max-width: 1024px) {
+  .albums-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .albums-gallery h2,
+  .albums-gallery p {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .discography-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 колонки вместо 4 */
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr); /* карточки в 1 ряд */
+  }
+
+  .projectsmusic-grid {
+    grid-template-columns: 1fr; /* по одной карточке */
+  }
+
+  .album-card {
+    width: 100%;
+    max-width: 400px; /* ограничим чтобы не растягивалась слишком сильно */
+  }
+}
+
+/* Мобильные */
+@media (max-width: 768px) {
+  .albums-section {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr; /* альбомы в одну колонку */
+  }
+
+  .discography-grid {
+    grid-template-columns: 1fr; /* все по одному в ряд */
+  }
+
+  .albums-gallery h2 {
+    font-size: 1.25rem;
+  }
+
+  .latest-release h2 {
+    font-size: 1.25rem;
+  }
+
+  .latest-release ul,
+  .latest-release span {
+    font-size: 16px;
+  }
+
+  .library_buttom button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .album-card {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .library_buttom {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .projectsmusic-card {
+    max-width: 700px;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscribe-form input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .subscribe-form button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Очень маленькие экраны */
+@media (max-width: 480px) {
+  .albums-gallery h2,
+  .latest-release h2 {
+    font-size: 1rem;
+  }
+
+  .latest-release ul,
+  .latest-release span {
+    font-size: 14px;
+  }
+
+  .album-card {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .project-info {
+    padding: 10px;
+  }
+
+  .project-info h3 {
+    font-size: 16px;
+  }
+
+  .project-info p {
+    font-size: 12px;
+  }
+
+  .project-btn {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+}

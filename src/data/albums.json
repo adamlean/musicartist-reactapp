@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Tical",
+    "date": "1994",
+    "cover": "/assets/img/tical.jpg",
+    "link": "#",
+    "icon": "fa-brands fa-soundcloud"
+  },
+  {
+    "title": "Meth Lab",
+    "date": "2015",
+    "cover": "/assets/img/methlab.jpg",
+    "link": "#",
+    "icon": "fa-brands fa-soundcloud"
+  }
+]
