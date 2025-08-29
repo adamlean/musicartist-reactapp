@@ -28,7 +28,7 @@ function Discography() {
               <li>Blackout! 2 (with Redman)<span>(2009)</span></li>
               <li>Wu-Massacre (with Ghostface Killah and Raekwon)<span>(2010)</span></li>
             </ul>
-            <form action="./Albums" className="library_buttom">
+            <form action="./albums" className="library_buttom">
               <button>Explore Library</button>
             </form>
           </div>
