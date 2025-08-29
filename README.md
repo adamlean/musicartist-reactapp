@@ -1,6 +1,6 @@
 # 🎧 Music Artist | Beatstore Website — React Project
 
-This is a modern, responsive web application for music producers and beatmakers to showcase and sell their beats online. Built with **React**, this project is inspired by industry-style beatstores like [Dextah](https://dextah.com) and similar platforms.
+This is a modern, responsive web application for music producers and beatmakers to showcase and sell their beats online. Built with **React**, this project is inspired by industry-style beatstores like [Dextah](https://dextah.com) and similar platforms..
 
 ---
 
