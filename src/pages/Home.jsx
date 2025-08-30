@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import LatestRelease from "../components/LatestRelease";
 import Subscribe from "../components/Subscribe";
