@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 import "./Discography.css";
 import Subscribe from "../components/Subscribe";
 
@@ -28,9 +29,9 @@ function Discography() {
               <li>Blackout! 2 (with Redman)<span>(2009)</span></li>
               <li>Wu-Massacre (with Ghostface Killah and Raekwon)<span>(2010)</span></li>
             </ul>
-            <form action="./albums" className="library_buttom">
-              <button>Explore Library</button>
-            </form>
+            <Link to="/albums" className="library_buttom">
+              Explore Library
+            </Link>
           </div>
 
           <div className="albums-gallery">

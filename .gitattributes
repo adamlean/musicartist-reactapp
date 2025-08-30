@@ -1,1 +1,6 @@
 * text=auto
+*.css linguist-detectable=false
+*.scss linguist-detectable=false
+*.sass linguist-detectable=false
+*.jsx linguist-language=JavaScript
+*.tsx linguist-language=TypeScript
