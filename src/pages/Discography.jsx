@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./Discography.css";
 import Subscribe from "../components/Subscribe";
 
@@ -8,10 +8,10 @@ function Discography() {
     document.title = 'Discography | Music Artist';
   }, []);
 
+  const navigate = useNavigate();
+
   return (
     <main className='content'>
-
-
       {/* Chronology + Albums */}
       <section className="albums-section">
         <div className="container">
@@ -29,11 +29,13 @@ function Discography() {
               <li>Blackout! 2 (with Redman)<span>(2009)</span></li>
               <li>Wu-Massacre (with Ghostface Killah and Raekwon)<span>(2010)</span></li>
             </ul>
-            <Link to="/albums" className="library_buttom">
+            <button
+              className="library_button"
+              onClick={() => navigate("/albums")}
+            >
               Explore Library
-            </Link>
+            </button>
           </div>
-
           <div className="albums-gallery">
             <h2>ALBUMS</h2>
             <div className="gallery-grid">
@@ -78,7 +80,7 @@ function Discography() {
               </div>
 
               <div className="album-card">
-                <img src="../assets/img/blackout.jpg" alt="Blackout!" />
+                <img src="/assets/img/blackout.jpg" alt="Blackout!" />
                 <div className="info-row">
                   <div className="info">
                     <p>Blackout!</p>
@@ -98,7 +100,7 @@ function Discography() {
               </div>
 
               <div className="album-card">
-                <img src="../assets/img/wumassacre.jpeg" alt="Wu-Massacre" />
+                <img src="/assets/img/wumassacre.jpeg" alt="Wu-Massacre" />
                 <div className="info-row">
                   <div className="info">
                     <p>Wu-Massacre</p>
@@ -167,15 +169,13 @@ function Discography() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
 
       <Subscribe />
     </main>
-
   );
-};
+}
 
 export default Discography;
