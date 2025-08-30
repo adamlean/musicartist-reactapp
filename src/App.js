@@ -24,6 +24,7 @@ function App() {
   
   return (
     <Router>
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomeLayout><Home /></HomeLayout>} />
         <Route path="/about" element={<DefaultLayout><About /></DefaultLayout>} />
