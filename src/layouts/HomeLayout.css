@@ -1,0 +1,6 @@
+/* HomeLayout.css */
+.home-layout {
+  /* background: url("/assets/img/background.jpg") no-repeat center center/cover; */
+  min-height: 100vh;
+  color: white;
+}

@@ -5,10 +5,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 
 // Pages
+import Home from "./pages/Home";
 import Beats from './pages/Beats';
 import Discography from './pages/Discography';
 import Albums from './pages/Albums';
 import About from './pages/About';
+
+// Layouts
+import DefaultLayout from "./layouts/DefaultLayout";
+import HomeLayout from "./layouts/HomeLayout";
 
 import './App.css';
 
@@ -19,12 +24,12 @@ function App() {
   
   return (
     <Router>
-      <NavBar />
       <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/beats" element={<Beats />} />
-        <Route path="/discography" element={<Discography />} />
-        <Route path="/albums" element={<Albums />} />
+        <Route path="/" element={<HomeLayout><Home /></HomeLayout>} />
+        <Route path="/about" element={<DefaultLayout><About /></DefaultLayout>} />
+        <Route path="/beats" element={<DefaultLayout><Beats /></DefaultLayout>} />
+        <Route path="/discography" element={<DefaultLayout><Discography /></DefaultLayout>} />
+        <Route path="/albums" element={<DefaultLayout><Albums /></DefaultLayout>} />     
       </Routes>
     </Router>
   );
