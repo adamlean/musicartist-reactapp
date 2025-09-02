@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <header>
       <div className="navbar">
-        {/* Бургер: показываем только когда меню закрыто */}
+        {/* Burger: Show only when menu is closed */}
         <button
           className="burger"
           aria-label="Открыть меню"
@@ -26,7 +26,7 @@ const NavBar = () => {
           </svg>
         </button>
 
-        {/* Крестик: показываем только когда меню открыто */}
+        {/* Cross: show only when menu is open */}
         <button
           className="close"
           aria-label="Закрыть меню"
@@ -39,12 +39,12 @@ const NavBar = () => {
           </svg>
         </button>
 
-        {/* Логотип */}
+        {/* Logo */}
         <Link to="/" className="logo">
           Music Artist
         </Link>
 
-        {/* Меню: даём класс .active как в твоём CSS */}
+        {/* Navigation */}
         <nav className={`menu ${isOpen ? "active" : ""}`}>
           <Link to="/" onClick={closeMenu}>Home</Link>
           <Link to="/about" onClick={closeMenu}>About</Link>
@@ -55,7 +55,7 @@ const NavBar = () => {
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>
 
-        {/* Иконки */}
+        {/* Icons */}
         <div className="icon">
           <FaSearch />
           <div>
@@ -69,7 +69,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      {/* Overlay: даём класс .active как в твоём CSS */}
+      {/* Overlay */}
       <div
         className={`overlay ${isOpen ? "active" : ""}`}
         onClick={closeMenu}

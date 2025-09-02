@@ -9,7 +9,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Method Man</h1>
+        <h1>Music Artist</h1>
         <p>Musician • Producer • Creator</p>
         <div className="hero-buttons">
           <button onClick={() => navigate("/discography")} className="btn">
