@@ -46,12 +46,14 @@
 .icon {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 25px;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
-.icon:hover {
+.login-icon:hover,
+.bag-icon:hover,
+.search-icon:hover {
   color: red;
 }
 

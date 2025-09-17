@@ -334,9 +334,8 @@
   cursor: pointer;
 }
 
-/* ====== Адаптив ====== */
+/* ====== Responsive ====== */
 
-/* Планшеты */
 @media (max-width: 1024px) {
   .albums-section {
     flex-direction: column;
@@ -351,20 +350,20 @@
   }
 
   .discography-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 колонки вместо 4 */
+    grid-template-columns: repeat(2, 1fr); 
   }
 
   .projects-grid {
-    grid-template-columns: repeat(1, 1fr); /* карточки в 1 ряд */
+    grid-template-columns: repeat(1, 1fr); 
   }
 
   .projectsmusic-grid {
-    grid-template-columns: 1fr; /* по одной карточке */
+    grid-template-columns: 1fr;
   }
 
   .album-card {
     width: 100%;
-    max-width: 400px; /* ограничим чтобы не растягивалась слишком сильно */
+    max-width: 400px;
   }
 }
 
@@ -377,11 +376,11 @@
   }
 
   .gallery-grid {
-    grid-template-columns: 1fr; /* альбомы в одну колонку */
+    grid-template-columns: 1fr; 
   }
 
   .discography-grid {
-    grid-template-columns: 1fr; /* все по одному в ряд */
+    grid-template-columns: 1fr; 
   }
 
   .albums-gallery h2 {
@@ -442,7 +441,6 @@
   }
 }
 
-/* Очень маленькие экраны */
 @media (max-width: 480px) {
   .albums-gallery h2,
   .latest-release h2 {

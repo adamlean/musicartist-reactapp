@@ -1,7 +1,7 @@
 /* Subscribe */
 
 .subscribe-section {
-  margin-top: auto;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -27,4 +27,27 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .subscribe-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscribe-form input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .subscribe-form button {
+    width: 100%;
+    max-width: 300px;
+  }
 }

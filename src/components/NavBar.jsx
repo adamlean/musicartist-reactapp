@@ -48,21 +48,24 @@ const NavBar = () => {
         <nav className={`menu ${isOpen ? "active" : ""}`}>
           <Link to="/" onClick={closeMenu}>Home</Link>
           <Link to="/about" onClick={closeMenu}>About</Link>
-          <Link to="/beats" onClick={closeMenu}>Beats</Link>
-          <Link to="/discography" onClick={closeMenu}>Discography</Link>
-          <a href="#services" onClick={closeMenu}>Services</a>
-          <a href="#faq" onClick={closeMenu}>FAQ & Help</a>
+          <Link to="/discography" onClick={closeMenu}>Music</Link>
+          <a href="#video" onClick={closeMenu}>Video</a>
+          <a href="#gallery" onClick={closeMenu}>Gallery</a>
+          <a href="#tour" onClick={closeMenu}>Tour</a>
+          <a href="#store" onClick={closeMenu}>Store</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>
 
         {/* Icons */}
         <div className="icon">
-          <FaSearch />
-          <div>
+          <div className="search-icon">
+            <FaSearch />
+          </div>
+          <div className="bag-icon">
             <FaShoppingBag />
             <span>$0.00</span>
           </div>
-          <div>
+          <div className="login-icon">
             <FaUser />
             <span>Log In</span>
           </div>
