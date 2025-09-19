@@ -37,6 +37,53 @@
   margin-top: 30px;
 }
 
+.project-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-info h3 {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: black;
+}
+
+.project-info p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.project-info span {
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: gray;
+}
+
+.project-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.live-link {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.live-link:hover {
+  color: red;
+  opacity: 0.8;
+}
+
 /* ====== Responsive ====== */
 
 @media (max-width: 1024px) {

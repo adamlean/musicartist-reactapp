@@ -1,5 +1,8 @@
 // src/components/AlbumCard.jsx
 import React from "react";
+// import {
+//   faSpotify,
+// } from "@fortawesome/free-brands-svg-icons";
 
 function AlbumCard({ album }) {
   return (
@@ -15,6 +18,9 @@ function AlbumCard({ album }) {
             <a href={album.link} target="_blank" rel="noopener noreferrer" title="Listen">
               <i className={album.icon}></i>
             </a>
+            {/* <a href={album.link} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faSpotify} className={album.spotify} />
+            </a> */}
           </div>
         )}
       </div>
