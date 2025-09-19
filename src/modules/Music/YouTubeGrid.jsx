@@ -6,10 +6,6 @@ export default function YouTubeGrid() {
   const videos = [
     "https://youtu.be/y2Ly5Ijia1E",
     "https://youtu.be/7ULnPiwjOMA",
-    "https://www.youtube.com/watch?v=l482T0yNkeo",
-    "https://www.youtube.com/watch?v=Zi_XLOBDo_Y",
-    "https://www.youtube.com/watch?v=2vjPBrBU-TM",
-    "https://www.youtube.com/watch?v=ktvTqknDobU",
   ];
 
   return (

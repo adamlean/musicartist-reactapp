@@ -1,11 +1,11 @@
 // src/components/MusicProjects.jsx
 import "./MusicProjects.css";
 
-function LatestRelease() {
+function MusicProjects() {
   return (
-    < section className="projectsmusic-section" >
+    < section className="projectsmusic" >
       <div className="projectsmusic-container">
-        <h2>Collaborations</h2>
+        <h2 className="projectmusic-title">Collaborations</h2>
         <div className="projectsmusic-grid">
           <div className="projectmusic-card">
             <div className="project-info">
@@ -54,4 +54,4 @@ function LatestRelease() {
   );
 }
 
-export default LatestRelease;
+export default MusicProjects;

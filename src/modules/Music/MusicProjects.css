@@ -1,12 +1,12 @@
 /* Music Projects */
 
-.projectsmusic-section {
+.projectsmusic {
   padding: 20px 20px;
   color: white;
   margin-top: 50px;
 }
 
-.projectsmusic-section h2 {
+.projectmusic-title {
   color: white;
   text-align: center;
 }

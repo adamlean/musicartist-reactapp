@@ -9,7 +9,6 @@ function Beats() {
   return (
     <main className='container'>
       <YouTubeGrid />
-      );
     </main>
   );
 }
