@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import "./Discography.css";
-import Subscribe from "../components/Subscribe";
+import MusicProjects from "../modules/Music/MusicProjects";
 
 function Discography() {
   useEffect(() => {
@@ -122,58 +122,7 @@ function Discography() {
           </div>
         </div>
       </section>
-
-      {/* Music Projects */}
-      <section className="projectsmusic-section">
-        <div className="projectsmusic-container">
-          <h2>Music Projects</h2>
-          <div className="projectsmusic-grid">
-            <div className="projectmusic-card">
-              <div className="project-info">
-                <h3>Method Man & Redman</h3>
-                <p>
-                  Collaboration 2000s
-                  <span>2000s</span>
-                </p>
-                <div className="project-meta">
-                  <a
-                    href="https://www.example.com/"
-                    className="live-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Spotify
-                  </a>
-
-                </div>
-              </div>
-            </div>
-
-            <div className="projectmusic-card">
-              <div className="project-info">
-                <h3>Wu Massacre</h3>
-                <p>
-                  Method Man with Chostface Killah, Raekwon
-                  <span>2010</span>
-                </p>
-                <div className="project-meta">
-                  <a
-                    href="https://www.example.com/"
-                    className="live-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Spotify
-                  </a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <Subscribe />
+      <MusicProjects />
     </main>
   );
 }

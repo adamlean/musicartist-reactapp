@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Tracklist.css";
-import tracksData from "../data/tracks.json";
+import tracksData from "../../data/tracks.json";
 
 const genres = [
   { label: "All", value: "all" },

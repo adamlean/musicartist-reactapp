@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import "./About.css";
-import Subscribe from "../components/Subscribe";
 
 function About() {
   useEffect(() => {
@@ -47,7 +46,6 @@ function About() {
 
 
       </div>
-      <Subscribe />
     </main>
   );
 };

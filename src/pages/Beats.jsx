@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import TrackList from '../components/Tracklist';
-import Subscribe from "../components/Subscribe";
+import TrackList from '../modules/Music/Tracklist';
 
 function Beats() {
   useEffect(() => {
@@ -13,7 +12,6 @@ function Beats() {
         <TrackList />
       </div>
       );
-      <Subscribe />
     </main>
   );
 }

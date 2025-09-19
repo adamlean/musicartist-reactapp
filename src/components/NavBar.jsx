@@ -49,7 +49,7 @@ const NavBar = () => {
           <Link to="/" onClick={closeMenu}>Home</Link>
           <Link to="/about" onClick={closeMenu}>About</Link>
           <Link to="/discography" onClick={closeMenu}>Music</Link>
-          <a href="#video" onClick={closeMenu}>Video</a>
+          <Link to="/video" onClick={closeMenu}>Video</Link>
           <a href="#gallery" onClick={closeMenu}>Gallery</a>
           <a href="#tour" onClick={closeMenu}>Tour</a>
           <a href="#store" onClick={closeMenu}>Store</a>

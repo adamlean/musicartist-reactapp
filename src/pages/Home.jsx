@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Hero from "../components/Hero";
-import LatestRelease from "../components/LatestRelease";
-import Subscribe from "../components/Subscribe";
+import LatestRelease from "../modules/Music/LatestRelease";
 import "./Home.css";
 
 function Home() {
@@ -13,9 +12,6 @@ function Home() {
     <div className="home">
       <Hero />
       <LatestRelease />
-      <section className="subscribe">
-        <Subscribe />
-      </section>
     </div>
   );
 }

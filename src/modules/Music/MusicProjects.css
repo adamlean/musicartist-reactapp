@@ -1,0 +1,89 @@
+/* Music Projects */
+
+.projectsmusic-section {
+  padding: 20px 20px;
+  color: white;
+  margin-top: 50px;
+}
+
+.projectsmusic-section h2 {
+  color: white;
+  text-align: center;
+}
+
+.projectmusic-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  height: 150px;
+  width: 550px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projectsmusic-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projectsmusic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* ====== Responsive ====== */
+
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+
+  .projectsmusic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .album-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .projectsmusic-card {
+    max-width: 700px;
+    height: auto;
+    padding: 20px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-info {
+    padding: 10px;
+  }
+
+  .project-info h3 {
+    font-size: 16px;
+  }
+
+  .project-info p {
+    font-size: 12px;
+  }
+
+  .project-btn {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+}

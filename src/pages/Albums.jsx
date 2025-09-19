@@ -1,8 +1,7 @@
 // src/pages/Albums.jsx
 import React, { useEffect } from "react";
 import albumsData from "../data/albums.json";
-import AlbumCard from "../components/AlbumCard";
-import Subscribe from "../components/Subscribe";
+import AlbumCard from "../modules/Music/AlbumCard";
 import "./Albums.css";
 
 function Albums() {
@@ -23,8 +22,6 @@ function Albums() {
           </div>
         </div>
       </div>
-
-      <Subscribe />
     </main>
   );
 }

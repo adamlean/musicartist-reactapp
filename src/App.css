@@ -23,7 +23,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  height: 100vh;
 }
 
 .container {
@@ -36,8 +35,21 @@ h1, h2, h3 {
   color: white;
 }
 
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 p, span {
   color: white;
+  font-size: 18px
 }
 
 .tracklist-title {
