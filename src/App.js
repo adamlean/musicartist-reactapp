@@ -12,6 +12,7 @@ import Discography from './pages/Discography';
 import Albums from './pages/Albums';
 import About from './pages/About';
 import Video from './pages/Video';
+import Contact from './pages/Contact';
 
 // Layouts
 import DefaultLayout from "./layouts/DefaultLayout";
@@ -33,7 +34,8 @@ function App() {
         <Route path="/beats" element={<DefaultLayout><Beats /></DefaultLayout>} />
         <Route path="/discography" element={<DefaultLayout><Discography /></DefaultLayout>} />
         <Route path="/albums" element={<DefaultLayout><Albums /></DefaultLayout>} />    
-         <Route path="/video" element={<DefaultLayout><Video /></DefaultLayout>} />
+        <Route path="/video" element={<DefaultLayout><Video /></DefaultLayout>} />
+          <Route path="/contact" element={<DefaultLayout><Contact /></DefaultLayout>} />
       </Routes>
       <Footer />
     </Router>

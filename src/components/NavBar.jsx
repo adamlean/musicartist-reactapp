@@ -53,7 +53,7 @@ const NavBar = () => {
           <a href="#gallery" onClick={closeMenu}>Gallery</a>
           <a href="#tour" onClick={closeMenu}>Tour</a>
           <a href="#store" onClick={closeMenu}>Store</a>
-          <a href="#contact" onClick={closeMenu}>Contact</a>
+          <Link to="/contact" onClick={closeMenu}>Contact</Link>
         </nav>
 
         {/* Icons */}
